@@ -1,0 +1,349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"im",
+				"images\t(index.html)"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inpu",
+				"input"
+			],
+			[
+				"clor",
+				"color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"auto",
+				"auto〔value〕"
+			],
+			[
+				"pan",
+				"panel1\t(index.html)"
+			],
+			[
+				"HTML",
+				"HTML5"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"column",
+				"column-gap"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"style",
+				"style1.css"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 144.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/shanr/Desktop/my-resume-gh-pages/my-resume-gh-pages/index.html",
+		"/C/Users/shanr/Desktop/my-resume/index.html",
+		"/C/Users/shanr/AppData/Local/Temp/Temp1_simple-calculator.zip/index.html",
+		"/C/Users/shanr/AppData/Local/Temp/Temp1_download.zip/font_hze7g9la6b51m7vi/demo_symbol.html",
+		"/C/Users/shanr/AppData/Local/Temp/Temp1_download.zip/font_hze7g9la6b51m7vi/demo_fontclass.html",
+		"/C/Users/shanr/Desktop/my-resume-gh-pages/index.html",
+		"/C/Users/shanr/Desktop/ChromeGo-lite/GoAgent翻墙.cmd",
+		"/C/Users/shanr/Desktop/qq/index.html",
+		"/C/Users/shanr/Desktop/qq/css/main.css",
+		"/C/Users/shanr/Desktop/qq/js/drag.js",
+		"/C/Users/shanr/Desktop/test.html",
+		"/C/Users/shanr/Desktop/pictureshow/js/script1.js",
+		"/C/Users/shanr/Desktop/pictureshow/css/style1.css",
+		"/C/Users/shanr/Desktop/pictureshow/index.html",
+		"/E/web练习/图片、信息展示”/瀑布流布局/源码/CSS3/waterfall.html",
+		"/E/web练习/图片、信息展示”/瀑布流布局/源码/CSS3/css/waterfall.css",
+		"/E/web练习/图片、信息展示”/焦点图轮播效果(源代码)/demo-jq.html",
+		"/E/web练习/图片、信息展示”/焦点图轮播效果(源代码)/demo.html",
+		"/C/Users/shanr/Desktop/pictureshow/js/script2.js",
+		"/E/web练习/图片、信息展示”/选项卡延迟和自动切换效果/Tab-延迟/js/script.js",
+		"/E/web练习/图片、信息展示”/选项卡延迟和自动切换效果/Tab-延迟/index.html",
+		"/E/web练习/图片、信息展示”/选项卡延迟和自动切换效果/Tab-延迟/css/style.css",
+		"/E/web练习/图片、信息展示”/选项卡延迟和自动切换效果/Tab-自动切换/js/script.js",
+		"/C/Users/shanr/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/shanr/Desktop/pictureshow/images/3.jpg",
+		"/C/Users/shanr/AppData/Roaming/Sublime Text 3/Packages/Themr/ThemrFavorites.sublime-settings",
+		"/C/Users/shanr/AppData/Roaming/Sublime Text 3/Packages/Themr/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h5",
+			"z-index",
+			"div",
+			"i",
+			"login_logo_webqq",
+			"ui_boxyClose",
+			"#",
+			"#container",
+			"id"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
