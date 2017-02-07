@@ -11,239 +11,234 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-    <script src="js/script.js"></script>
-    <script src="http://cdn.dowebok.com/107/js/jquery.scrollify.min.js"></script>
     <script src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
-    <script src="http://at.alicdn.com/t/font_rz14ms7w4yj5rk9.js"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="js/script.js"></script>
+    <script src="http://cdn.bootcss.com/fullPage.js/2.9.2/jquery.fullPage.js"></script>
+    <script src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script><!--字体-->
+    <script src="http://at.alicdn.com/t/font_rz14ms7w4yj5rk9.js"></script><!--字体-->
     <script type="text/javascript">
-    $(function() {
-      $(".panel").css("height","842px")
-    $.scrollify({
-        section: '.panel',
-        });
-    $youziku.load("body","2433c42cdc7d4244acc5586489621e2d", "Source-Han-Light");
-    /*$youziku.load("#id1,.class1,h1", "f93e9b8c1e17426aa73197498b371649", "YouYuan");*/
-    /*．．．*/
-    $youziku.draw();
-    });
+      $(function(){
+          $youziku.load("body","2433c42cdc7d4244acc5586489621e2d", "Source-Han-Light");
+          /*$youziku.load("#id1,.class1,h1", "f93e9b8c1e17426aa73197498b371649", "YouYuan");*/
+          /*．．．*/
+          $youziku.draw();
+      });
     </script>
   </head>
   <body class="scrollme" data-spy="scroll" data-target="#navbar-menu" data-offset="200">
-  <nav id="navbar-menu" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a class="navbar-brand" href="#introtext">
-          <img class="img-circle " alt="Brand" src="img/myphoto.png" style="width: 40px; height: 40px;margin-top: -10px ">
-        </a>
-      </div>
+    <div id="fullpage">
+      <nav id="navbar-menu" class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#introtext">
+              <img class="img-circle " alt="Brand" src="img/myphoto.png" style="width: 40px; height: 40px;margin-top: -10px ">
+            </a>
+          </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#introtext">个人简介</a></li>
-          <li><a href="#skillswrap">专业技能</a></li>
-          <li><a href="#work-exp">工作经历</a></li>
-          <li><a href="#demos">我的作品</a></li>
-          <li><a href="#contact">联系方式</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  <div class="intro-bg panel" id="introtext">
-    <div class="container" id="intro-container" >
-      <div class="row">
-        <div class="col-md-12">
-          <img src="img/myphoto.png" class="img-circle img-responsive wow animated " alt="头像">
-          <h2 class="quote animated">人没有梦想和咸鱼还有什么区别</h2>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active" data-menuanchor="page1"><a href="#page1">个人简介</a></li>
+              <li data-menuanchor="page2"><a href="#page2">专业技能</a></li>
+              <li data-menuanchor="page3"><a href="#page3">工作经历</a></li>
+              <li data-menuanchor="page4"><a href="#page4">我的作品</a></li>
+              <li data-menuanchor="page5"><a href="#page5">联系方式</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+      <div id="introtext" class="intro-bg section" data-anchor="page1">
+        <div class="container" id="intro-container" >
+          <div class="row">
+            <div class="col-md-12">
+              <img src="img/myphoto.png" class="img-circle img-responsive animated op0" alt="头像">
+              <h2 class="quote animated op0">人没有梦想和咸鱼还有什么区别</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="personnaldate col-md-5 col-md-offset-1 animated op0">
+              <p>姓名 - 单瑞环</p>
+              <p>手机 - 15251896739</p>
+              <p>邮箱 - 767550473@qq.com</p>
+              <p>所在地 - 江苏 | 南京</p>
+            </div>
+            
+            <div class="personnaldiscr col-md-5 animated op0">
+              <p>我是一个性格幽默、做事认真的人。我喜欢研究所碰到的各种技术，不给自己设边界，有 Geek 精神。我有时间概念，能在约定时间内保证完成任务。</p>
+              <p>熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用 jQuery 框架，有良好的编码习惯。</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="personnaldate col-md-5 col-md-offset-1 wow animated">
-          <p>姓名 - 单瑞环</p>
-          <p>手机 - 15251896739</p>
-          <p>邮箱 - 767550473@qq.com</p>
-          <p>所在地 - 江苏 | 南京</p>
-        </div>
-        
-        <div class="personnaldiscr col-md-5 wow animated">
-          <p>我是一个性格幽默、做事认真的人。我喜欢研究所碰到的各种技术，不给自己设边界，有 Geek 精神。我有时间概念，能在约定时间内保证完成任务。</p>
-          <p>熟悉 HTML、CSS、Javascript，能熟练开发符合 W3C 标准的页面，熟练使用 jQuery 框架，有良好的编码习惯。</p>
-        </div>
-      </div>
+      </div><!--/ introtext -->
+      <div id="skillswrap" class="section" data-anchor="page2">
+        <div class="container">
+          <div class="row skillswrap">
+              <div class="col-lg-12">
+                <h2 class="centered " >专业技能</h2>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill1 op0">
+                <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握jQuery" data-content=" 掌握原生JS的编程,注重JavaScript性能优化" data-animation="true" data-trigger="click hover">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+                    65%
+                  </div>
+                </div>
+                <p>Javascript</p>
+                </a>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill2 op0">
+                <a  id="pop" data-toggle="popover" data-placement="bottom" data-content="能够用bootstrap框架搭建出响应式网页" title="了解bootstrap" data-animation="true" data-trigger="click hover">
+                <div class="progress" >
+                  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    50%
+                  </div>
+                </div>
+                <p>Bootstrap</p>
+                </a>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill3 op0">
+                <a id="pop" data-toggle="popover" data-placement="bottom" title="熟练运用css及css3新属性" data-content=" 能够精确的将设计稿还原成静态网页" data-animation="true" data-trigger="click hover">
+                  <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                    85%
+                  </div>
+                  </div>
+                  <p>CSS/CSS3</p>
+                </a>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill4 op0">
+                <a id="pop" data-toggle="popover" data-placement="bottom" title="深刻理解Web标准" data-content=" 运用html标签配合css能熟练开发符合 W3C 标准的页面" data-animation="true" data-trigger="click hover">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    90%
+                  </div>
+                </div>
+                <p>HTML/HTML5</p>
+                </a>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill2 op0">
+                <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握Photoshop" data-content="熟悉ps各种功能，能够熟练切图" data-animation="true" data-trigger="click hover">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    70%
+                  </div>
+                </div>
+                <p>Photoshop</p>
+                </a>
+              </div>
+              <div class="col-lg-3 col-lg-offset-1 centered skill6 op0">
+                <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握Git" data-content="能够熟练操作git进行项目开发" data-animation="true" data-trigger="click hover">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    60%
+                  </div>
+                </div>
+                <p>Git</p>
+                </a>
+              </div>
+          </div><!--/.row -->
+        </div><!--/.container -->
+      </div><!--/ #skillswrap -->
+      <div id="work-exp" class="section" data-anchor="page3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 work-exp-text op0">
+              <h2 class="centered">工作经历</h2>
+            </div>
+            <div class="col-lg-12 work-exp-pic op0">
+              <img src="img/workexp.png">
+            </div>
+            <div class="col-lg-3 col-lg-offset-3 work-exp-left op0">2011.9-2015.6<br>
+              <h4>南京邮电大学通达学院</h4>
+              <p>数字媒体技术专业</p>
+              <p>部分课程：web技术、图像处理软件应用</p>
+            </div>
+            <div class="col-lg-3 work-exp-right work-exp-right op0">2015.7-2016.8<br>
+              <h4>南京普天网络有限公司</h4>
+              <p>web前端</p>
+              <p>主要职责：使用photoshop将设计稿切图,用div+css进行布局搭建，编写成符合标准的静态页面,根据设计要求，用jquery框架添加所需的动态效果,配合设计师对页面进行修改完善，配合后端人员进行数据对接</p>
+            </div>
+          </div><!--/.row -->
+        </div><!--/.container -->
+      </div><!--/ #work-exp -->
+      <div id="demos" class="section" data-anchor="page4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 ">
+              <h2 class="centered demos-text op0">我的作品</h2>
+            </div>
+            <div class="col-xs-6 col-md-3 demo1 op0">
+              <a href="http://ruirae.coding.me/yoyogame/" target="_blank" class="thumbnail">
+                <img src="img/batman.jpg" alt="作品1">
+              </a>
+              <h4>yoyo游戏静态页面</h4>
+            </div>
+            <div class="col-xs-6 col-md-3 demo2 op0">
+              <a href="http://codepen.io/ruirae/full/bBJrba/" target="_blank" class="thumbnail">
+                <img src="img/flash.png" alt="作品2">
+              </a>
+              <h4>Demo:简易计算器</h4>
+            </div>
+            <div class="col-xs-6 col-md-3 demo1 op0">
+              <a href="http://codepen.io/ruirae/full/woRdvM/" target="_blank" class="thumbnail">
+                <img src="img/caption_america.jpg" alt="作品3">
+              </a>
+              <h4>Demo:LOL语录</h4>
+            </div>
+            <div class="col-xs-6 col-md-3 demo2 op0">
+              <a href="http://codepen.io/ruirae/full/GNLeGo/" target="_blank" class="thumbnail">
+                <img src="img/deadpool.png" alt="作品4">
+              </a>
+              <h4>Demo:番茄计时器</h4>
+            </div>
+          </div><!--/.row -->
+        </div><!--/.container -->
+      </div><!--/ #demos -->
+      <div id="contact" class="section" data-anchor="page5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 contact op0">
+              <h2 class="centered">联系方式</h2>
+            </div>
+            <div class="col-lg-6 phone op0">
+              <img src="img/phone1.png">
+              15251896739
+            </div>
+            <div class="col-lg-6 email op0">
+              <img src="img/email.png">
+              <a href="mailto:767550473@qq.com" hidefocus="true" style="text-decoration: none;color: #fff">767550473@qq.com</a>
+            </div>
+            <div class="container top op0">
+              <a href="#page1">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-totop"></use>
+                </svg>
+              </a>
+            </div>
+          </div><!--/.row -->
+        </div><!--/.container -->
+      </div><!--/ #contact -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 ">
+              <p class="pull-right"><a href="#top" style="text-decoration: none;color: #787d82">回到顶部</a></p>
+              <p>Created by shanruihuan</p>
+            </div>
+          </div>
+        </div> 
+      </footer>
     </div>
-  </div><!--/ introtext -->
-  <div id="skillswrap" class="panel">
-    <div class="container">
-      <div class="row skillswrap">
-          <div class="col-lg-12">
-            <h2 class="centered " >专业技能</h2>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill1">
-            <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握jQuery" data-content=" 掌握原生JS的编程,注重JavaScript性能优化" data-animation="true" data-trigger="click hover">
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-                65%
-              </div>
-            </div>
-            <p>Javascript</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill2">
-            <a  id="pop" data-toggle="popover" data-placement="bottom" data-content="能够用bootstrap框架搭建出响应式网页" title="了解bootstrap" data-animation="true" data-trigger="click hover">
-            <div class="progress" >
-              <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                50%
-              </div>
-            </div>
-            <p>Bootstrap</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill3">
-            <a id="pop" data-toggle="popover" data-placement="bottom" title="熟练运用css及css3新属性" data-content=" 能够精确的将设计稿还原成静态网页" data-animation="true" data-trigger="click hover">
-              <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-                85%
-              </div>
-              </div>
-              <p>CSS/CSS3</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill4">
-            <a id="pop" data-toggle="popover" data-placement="bottom" title="深刻理解Web标准" data-content=" 运用html标签配合css能熟练开发符合 W3C 标准的页面" data-animation="true" data-trigger="click hover">
-            <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                90%
-              </div>
-            </div>
-            <p>HTML/HTML5</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill2">
-            <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握Photoshop" data-content="熟悉ps各种功能，能够熟练切图" data-animation="true" data-trigger="click hover">
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                70%
-              </div>
-            </div>
-            <p>Photoshop</p>
-            </a>
-          </div>
-          <div class="col-lg-3 col-lg-offset-1 centered skill6">
-            <a id="pop" data-toggle="popover" data-placement="bottom" title="掌握Git" data-content="能够熟练操作git进行项目开发" data-animation="true" data-trigger="click hover">
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                60%
-              </div>
-            </div>
-            <p>Git</p>
-            </a>
-          </div>
-      </div><!--/.row -->
-    </div><!--/.container -->
-  </div><!--/ #skillswrap -->
-  <div id="work-exp" class="panel">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 work-exp-text">
-          <h2 class="centered">工作经历</h2>
-        </div>
-        <div class="col-lg-12 work-exp-pic">
-          <img src="img/workexp.png">
-        </div>
-        <div class="col-lg-3 col-lg-offset-3 work-exp-left">2011.9-2015.6<br>
-          <h4>南京邮电大学通达学院</h4>
-          <p>数字媒体技术专业</p>
-          <p>部分课程：web技术、图像处理软件应用</p>
-        </div>
-        <div class="col-lg-3 work-exp-right work-exp-right">2015.7-2016.8<br>
-          <h4>南京普天网络有限公司</h4>
-          <p>web前端</p>
-          <p>主要职责：使用photoshop将设计稿切图,用div+css进行布局搭建，编写成符合标准的静态页面,根据设计要求，用jquery框架添加所需的动态效果,配合设计师对页面进行修改完善，配合后端人员进行数据对接</p>
-        </div>
-      </div><!--/.row -->
-    </div><!--/.container -->
-  </div><!--/ #work-exp -->
-  <div id="demos" class="panel">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 ">
-          <h2 class="centered demos-text">我的作品</h2>
-        </div>
-        <div class="col-xs-6 col-md-3 demo1">
-          <a href="http://ruirae.coding.me/yoyogame/" target="_blank" class="thumbnail">
-            <img src="img/batman.jpg" alt="作品1">
-          </a>
-          <h4>yoyo游戏静态页面</h4>
-        </div>
-        <div class="col-xs-6 col-md-3 demo2">
-          <a href="http://codepen.io/ruirae/full/bBJrba/" target="_blank" class="thumbnail">
-            <img src="img/flash.png" alt="作品2">
-          </a>
-          <h4>Demo:简易计算器</h4>
-        </div>
-        <div class="col-xs-6 col-md-3 demo1">
-          <a href="http://codepen.io/ruirae/full/woRdvM/" target="_blank" class="thumbnail">
-            <img src="img/caption_america.jpg" alt="作品3">
-          </a>
-          <h4>Demo:LOL语录</h4>
-        </div>
-        <div class="col-xs-6 col-md-3 demo2">
-          <a href="http://codepen.io/ruirae/full/GNLeGo/" target="_blank" class="thumbnail">
-            <img src="img/deadpool.png" alt="作品4">
-          </a>
-          <h4>Demo:番茄计时器</h4>
-        </div>
-      </div><!--/.row -->
-    </div><!--/.container -->
-  </div><!--/ #demos -->
-  <div id="contact" class="panel">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 contact">
-          <h2 class="centered">联系方式</h2>
-        </div>
-        <div class="col-lg-6 phone">
-          <img src="img/phone1.png">
-          15251896739
-        </div>
-        <div class="col-lg-6 email">
-          <img src="img/email.png">
-          <a href="mailto:767550473@qq.com" hidefocus="true" style="text-decoration: none;color: #fff">767550473@qq.com</a>
-        </div>
-        <div class="container top">
-          <svg class="icon" aria-hidden="true">
-              <use xlink:href="#icon-totop"></use>
-          </svg>
-        </div>
-      </div><!--/.row -->
-    </div><!--/.container -->
-  </div><!--/ #contact -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 ">
-          <p class="pull-right"><a href="#top" style="text-decoration: none;color: #787d82">回到顶部</a></p>
-          <p>Created by shanruihuan</p>
-        </div>
-      </div>
-    </div> 
-  </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
